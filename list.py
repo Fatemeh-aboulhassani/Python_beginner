@@ -101,7 +101,34 @@ if not 7 in P:
     print("true")
 else:
     print("false")
+
+
+
+  #methods in List
     
+Listx=["math","physics","arabic"]
+Listx.append("algebra") # append +
+print(Listx)
+# output ['math', 'physics', 'arabic', 'algebra']
+# name.append fügt am Ende hinzu aber name.insert fügt wo man genau will hinzu
+
+
+
+
+
+
+Listx.remove("math") # remove -
+print(Listx)
+#output ['physics', 'arabic', 'algebra']
+
+
+
+Listy=["math","physics","arabic","Math"]
+Listy.count("math")
+# repeating is 1 because Math , math
+
+Listy.count("algebra")
+#output 0  
 
 
 
