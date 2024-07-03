@@ -130,5 +130,21 @@ Listy.count("math")
 Listy.count("algebra")
 #output 0  
 
+list_new=[1,45,21,188,9,12]
+list_new.append("math")
+print(list_new)
+#[1, 45, 21, 188, 9, 12, 'math']
 
 
+list_new.append(2)
+print(list_new)
+#[1, 45, 21, 188, 9, 12, 'math', 2]
+
+list_new.remove("math")
+print(list_new)
+#[1, 45, 21, 188, 9, 12, 2]
+
+
+list_new.sort()
+print(list_new)
+#[1, 2, 9, 12, 21, 45, 188]
