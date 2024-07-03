@@ -1,3 +1,3 @@
 # python beginner
 
-we use python 3 and jupiter notebook
+I use python 3 and jupiter notebook
